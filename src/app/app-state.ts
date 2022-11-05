@@ -4,7 +4,7 @@ import { IReceita } from "./shared/models/receita.interface";
 
 export class AppState{
     token:string = '';
-    operacao = OperacaoTypeEnum.SALVAR;
+    operacao = OperacaoTypeEnum.EDITAR;
     despesaSelecionada!: IDespesa;
     receitaSelecionada!: IReceita;
 }
